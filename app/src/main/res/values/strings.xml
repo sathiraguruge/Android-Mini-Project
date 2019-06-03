@@ -1,0 +1,63 @@
+<resources>
+    <!--titles-->
+
+    <string name="app_name">Personal Expense Manager</string>
+    <string name="food_str">Food</string>
+    <string name="transport_str">Transport</string>
+    <string name="shopping_str">Shopping</string>
+    <string name="cc_str">Credit Card</string>
+    <string name="dashboard">Main Dashboard</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_creditcardedit">Edit Credit Card Details</string>
+    <string name="title_activity_foodedit">Edit Food Details</string>
+    <string name="title_activity_shoppingedit">Edit Shopping Details</string>
+    <string name="title_activity_transportedit">Edit Transport Details</string>
+
+    <!--Button Text-->
+
+    <string name="reset_str">Reset</string>
+    <string name="summary_str">View Summary</string>
+    <string name="name_str">Name</string>
+    <string name="description_str">Description</string>
+    <string name="date_str">Date - dd/mm/yy</string>
+    <string name="visa_str">VISA</string>
+    <string name="master_str">MASTERCARD</string>
+    <string name="amex_str">AMEX</string>
+    <string name="cardno_str">Card Number - (XXXX-XXXX-XXXX-XXXX)</string>
+
+    <!--Button Hints-->
+    <string name="food_str_sub">Your Food and Beverage Expenses</string>
+    <string name="trans_str_sub">Your Travelling and Transportation Expenses</string>
+    <string name="shopping_str_sub">Your Shopping Expenses</string>
+    <string name="cc_str_sub">Your Credit Card details</string>
+
+
+    <string name="header">Personal Expense Manager</string>
+
+
+    <string name="title_activity_leisure">leisure</string>
+    <string name="title_activity_transport">transport</string>
+    <string name="title_activity_health">health</string>
+    <string name="title_activity_shopping">shopping</string>
+    <string name="title_activity_creditcard">creditcard</string>
+
+    <string name="exp_str">Expiry Date</string>
+    <string name="exp_str1">Expiry Date - (dd/mm/yy)</string>
+    <string name="title_activity_summary">summary</string>
+    <string name="title_activity_foodsum">foodsum</string>
+    <string name="foodsum_str">Food Summary</string>
+    <string name="leisuresum_str">Leisure Summary</string>
+    <string name="transportsum_str">Transport Summary</string>
+    <string name="healthsum_str">Health Summary</string>
+    <string name="shoppingsum_str">Shopping Summary</string>
+    <string name="ccsum_str">Credit Card Summary</string>
+    <string name="title_activity_leisuresum">leisuresum</string>
+    <string name="title_activity_transportsum">transportsum</string>
+    <string name="title_activity_healthsum">healthsum</string>
+    <string name="title_activity_shoppingsum">shoppingsum</string>
+    <string name="title_activity_creditcardsum">Credit Card Summary</string>
+    <string name="title_activity_splash">splash</string>
+
+    <string name="price">Price</string>
+    <string name="total">Total</string>
+</resources>

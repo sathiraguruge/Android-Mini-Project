@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="@android:color/white"
+            tools:context=".food">
+
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/darkgraycircle"
+                android:padding="10dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/creditcard" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp">
+
+
+                <EditText
+
+                    android:id="@+id/addCreditName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_str"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+
+
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp">
+
+
+                <EditText
+
+                    android:id="@+id/addCreditDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/description_str"
+                    android:inputType="text" />
+
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp">
+
+                <RadioGroup
+                    android:id="@+id/cardradioButtongroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visa_str" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/master_str" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amex_str" />
+
+                </RadioGroup>
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp">
+
+
+                <EditText
+
+                    android:id="@+id/addCardNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/cardno_str"
+                    android:inputType="number" />
+
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp">
+
+
+                <EditText
+
+                    android:id="@+id/addCreditDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:clickable="true"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="@string/exp_str1" />
+
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <ImageView
+                android:id="@+id/buttonSave"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lightblucircle"
+                android:padding="10dp"
+                android:src="@drawable/check" />
+
+
+
+        </LinearLayout>
+
+</ScrollView>

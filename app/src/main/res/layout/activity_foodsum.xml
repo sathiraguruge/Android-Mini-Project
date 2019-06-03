@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:backgroundTint="@android:color/white"
+    tools:context=".food">
+
+    <ImageView
+        android:id="@+id/food_add_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/greencircle"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_dash" />
+
+    <TextView
+        android:id="@+id/noOfFoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/limegreen" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ListView
+        android:id="@+id/listViewFoods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

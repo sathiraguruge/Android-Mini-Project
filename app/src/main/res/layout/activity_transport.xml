@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:backgroundTint="@android:color/white"
+    tools:context=".food">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/orangecircle"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/transport" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+
+            android:id="@+id/addTransportName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_str"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+
+            android:id="@+id/addTransportDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description_str" />
+
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+
+            android:id="@+id/addTransportDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="@string/date_str" />
+
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+
+            android:id="@+id/addTransportPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/addTransportButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/lightblucircle"
+        android:padding="10dp"
+        android:src="@drawable/check" />
+
+
+
+</LinearLayout>

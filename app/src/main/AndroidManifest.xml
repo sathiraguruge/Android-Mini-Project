@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.expensemanager.personalexpensemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon_round"
+        android:label="@string/header"
+        android:roundIcon="@mipmap/ic_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard"
+            android:label="@string/dashboard"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".food"
+            android:label="@string/food_str"
+            android:parentActivityName=".foodsum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transport"
+            android:label="@string/transport_str"
+            android:parentActivityName=".transportsum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shopping"
+            android:label="@string/shopping_str"
+            android:parentActivityName=".shoppingsum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".creditcard"
+            android:label="@string/cc_str"
+            android:parentActivityName=".creditcardsum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".summary"
+            android:label="@string/summary_str"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".foodsum"
+            android:label="@string/foodsum_str"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transportsum"
+            android:label="@string/transportsum_str"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shoppingsum"
+            android:label="@string/shoppingsum_str"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".creditcardsum"
+            android:label="@string/title_activity_creditcardsum"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash"
+            android:label="@string/title_activity_splash"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".creditcardedit"
+            android:label="@string/title_activity_creditcardedit"
+            android:parentActivityName=".creditcardsum"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".transportedit"
+            android:parentActivityName=".transportsum"
+            android:label="@string/title_activity_transportedit"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".foodedit"
+            android:parentActivityName=".foodsum"
+            android:label="@string/title_activity_foodedit"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".shoppingedit"
+            android:parentActivityName=".shoppingsum"
+            android:label="@string/title_activity_shoppingedit"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
